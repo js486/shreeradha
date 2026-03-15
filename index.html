@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhoop & Agarbatti - Organic Incense & Home Fragrance</title>
+<meta name="description" content="Dhoop & Agarbatti produces 100% organic incense sticks, dhoop, sambrani, and home fragrances using recycled devotional flowers.">
+<link rel="icon" href="https://via.placeholder.com/32x32.png?text=D&A" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">DHOOP & AGARBAATI</div>
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#philosophy">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="menu-toggle">☰</div>
+</header>
+
+<!-- HERO SECTION -->
+<section id="hero" class="hero">
+  <div class="hero-slide" style="background-image:url('https://livefreehostels.com/wp-content/uploads/2024/04/1.png');">
+    <div class="hero-text">
+      <h1>Organic Incense with Devotion</h1>
+      <p>From sacred flowers to hand-rolled dhoop sticks</p>
+      <a href="#products" class="btn">Explore Products</a>
+    </div>
+  </div>
+  <div class="hero-slide" style="background-image:url('https://i.postimg.cc/sXmf9s48/Gemini-Generated-Image-f7777f7777f7777f.jpg');">
+    <div class="hero-text">
+      <h1>Eco-Friendly & Sustainable</h1>
+      <p>Every stick carries purity, prayers, and hope.</p>
+      <a href="#products" class="btn">See More</a>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section id="philosophy" class="reveal">
+  <h2>Our Philosophy</h2>
+  <p>We believe in hope, positivity, and infinite possibilities. By doing the right thing, every single time, we create impact for our employees, customers, partners, stakeholders, and planet.</p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery reveal">
+  <h2>Our Flower Offerings</h2>
+  <div class="filter-buttons">
+    <button data-filter="all">All</button>
+    <button data-filter="religious">Religious Flowers</button>
+    <button data-filter="recycled">Recycled Flowers</button>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item religious" onclick="openLightbox(this)">
+      <img src="https://thumbs.dreamstime.com/b/flower-coconut-offerings-hindu-religious-ceremony-holy-festival-29804189.jpg" alt="Religious Flower">
+      <h3>Religious Flower</h3>
+    </div>
+    <div class="gallery-item recycled" onclick="openLightbox(this)">
+      <img src="https://mad4india.com/wp-content/uploads/2021/02/temple-flower-recycling.jpg" alt="Recycled Flowers">
+      <h3>Temple Flower Recycling</h3>
+    </div>
+    <div class="gallery-item religious" onclick="openLightbox(this)">
+      <img src="https://i.postimg.cc/sXmf9s48/Gemini-Generated-Image-f7777f7777f7777f.jpg" alt="Devotional Flower">
+      <h3>Devotional Flower</h3>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="process reveal">
+  <h2>Our Organic Process</h2>
+  <div class="process-grid">
+    <div class="step"><h3>Collection</h3><p>Devotional flowers responsibly collected.</p></div>
+    <div class="step"><h3>Drying</h3><p>Flowers dried naturally preserving fragrance.</p></div>
+    <div class="step"><h3>Handcrafting</h3><p>Sticks hand-rolled using organic binders.</p></div>
+    <div class="step"><h3>Pure Fragrance</h3><p>Chemical-free aroma in every stick.</p></div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="products reveal">
+  <h2>Our Products</h2>
+  <div class="filter-buttons">
+    <button data-filter="all">All</button>
+    <button data-filter="aircare">Air Care</button>
+    <button data-filter="dhoop">Dhoop & Sambrani</button>
+    <button data-filter="personalcare">Personal Care</button>
+    <button data-filter="homefragrance">Home Fragrance</button>
+    <button data-filter="pujasamghri">Puja Samghri</button>
+  </div>
+  <div class="product-grid">
+    <div class="product-card aircare" onclick="openLightbox(this)">
+      <img src="https://via.placeholder.com/300x200?text=Air+Care" alt="Air Care">
+      <h4>Air Care</h4>
+    </div>
+    <div class="product-card dhoop" onclick="openLightbox(this)">
+      <img src="https://via.placeholder.com/300x200?text=Dhoop" alt="Organic Dhoop">
+      <h4>Dhoop & Sambrani</h4>
+    </div>
+    <div class="product-card personalcare" onclick="openLightbox(this)">
+      <img src="https://via.placeholder.com/300x200?text=Personal+Care" alt="Personal Care">
+      <h4>Personal Care</h4>
+    </div>
+    <div class="product-card homefragrance" onclick="openLightbox(this)">
+      <img src="https://via.placeholder.com/300x200?text=Home+Fragrance" alt="Home Fragrance">
+      <h4>Home Fragrance</h4>
+    </div>
+    <div class="product-card pujasamghri" onclick="openLightbox(this)">
+      <img src="https://via.placeholder.com/300x200?text=Puja+Samghri" alt="Puja Samghri">
+      <h4>Puja Samghri</h4>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="testimonials reveal">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial-slider">
+    <div class="testimonial-slide">
+      <p>"The incense sticks are incredibly fragrant and eco-friendly!"</p>
+      <h4>- Priya R.</h4>
+    </div>
+    <div class="testimonial-slide">
+      <p>"Love the hand-rolled dhoop, reminds me of temple fragrance."</p>
+      <h4>- Arjun S.</h4>
+    </div>
+  </div>
+</section>
+
+<!-- SUBSCRIBE -->
+<section id="subscribe" class="subscribe reveal">
+  <h2>Subscribe for Updates</h2>
+  <form class="subscribe-form">
+    <input type="email" placeholder="Enter your email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact" class="reveal">
+  <p>© 2026 Dhoop & Agarbatti | Made with devotion and care</p>
+  <div class="social-icons">
+    <a href="#" aria-label="Facebook">FB</a>
+    <a href="#" aria-label="Instagram">IG</a>
+    <a href="#" aria-label="LinkedIn">LI</a>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img class="lightbox-img" id="lightboxImg">
+  <div id="lightboxCaption"></div>
+</div>
+
+<!-- FLOATING BUTTONS -->
+<a href="https://wa.me/911234567890" target="_blank" class="whatsapp-btn" aria-label="Chat on WhatsApp">WA</a>
+<button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
